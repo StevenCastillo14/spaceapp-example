@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/sun"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_stars"
+            android:icon="@drawable/stars"
+            android:title="@string/menu_stars" />
+        <item
+            android:id="@+id/nav_constelaciones"
+            android:icon="@drawable/telescope"
+            android:title="@string/menu_constelaciones" />
+        <item
+            android:id="@+id/nav_galaxy"
+            android:icon="@drawable/blackhole"
+            android:title="@string/menu_galaxy" />
+        <item
+            android:id="@+id/nav_moon"
+            android:icon="@drawable/moon"
+            android:title="@string/menu_moons" />
+        <item
+            android:id="@+id/nav_missions"
+            android:icon="@drawable/sputnik"
+            android:title="@string/menu_missions" />
+    </group>
+
+</menu>

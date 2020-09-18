@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.steven.spaapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_planetas" />
+
+    <fragment
+        android:id="@+id/nav_stars"
+        android:name="com.steven.spaapp.ui.gallery.GalleryFragment"
+        android:label="@string/menu_stars"
+        tools:layout="@layout/fragment_estrellas" />
+
+    <fragment
+        android:id="@+id/nav_constelaciones"
+        android:name="com.steven.spaapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_constelaciones"
+        tools:layout="@layout/fragment_constelaciones" />
+
+    <fragment
+        android:id="@+id/nav_galaxy"
+        android:name="com.steven.spaapp.ui.tools.ToolsFragment"
+        android:label="@string/menu_galaxy"
+        tools:layout="@layout/fragment_galaxy" />
+
+    <fragment
+        android:id="@+id/nav_moon"
+        android:name="com.steven.spaapp.ui.share.ShareFragment"
+        android:label="@string/menu_moons"
+        tools:layout="@layout/fragment_moon" />
+
+    <fragment
+        android:id="@+id/nav_missions"
+        android:name="com.steven.spaapp.ui.send.SendFragment"
+        android:label="@string/menu_missions"
+        tools:layout="@layout/fragment_missions" />
+</navigation>
